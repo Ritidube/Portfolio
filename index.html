@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Riti Dubey — Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- FLOATING SHAPES -->
+<div class="shape s1"></div>
+<div class="shape s2"></div>
+<div class="shape s3"></div>
+<div class="shape s4"></div>
+
+<!-- HEADER -->
+<header id="navbar">
+  <div class="brand">
+    <div class="logo">RD</div>
+    <div class="title-info">
+      <div class="name">Riti Dubey</div>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#intern">Internship</a>
+    <a href="#skills">Skills</a>
+    <a href="#certs">Certifications</a>
+    <a href="#learning">Learning</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="theme-toggle" onclick="toggleTheme()">🌓</div>
+</header>
+
+<!-- HERO SECTION -->
+<section id="hero" class="hero">
+  <div class="intro">
+    <span class="kicker">• AI • Machine Learning • Data Structures & Algorithms</span>
+    <h1>Hi — I'm <span class="highlight">Riti Dubey</span></h1>
+    <p class="typing">ML & DSA Learner</p>
+    <p class="tagline">A dedicated CSE student passionate about AI, ML, and building impactful tech solutions.</p>
+
+    <div class="links">
+      <a href="Resume.pdf" download class="btn-resume magnetic">Download Resume</a>
+      <a href="https://www.linkedin.com/in/riti-dubey-463b0b28a" target="_blank" class="btn-ghost magnetic">LinkedIn</a>
+      <a href="https://github.com/Ritidube" target="_blank" class="btn-ghost magnetic">GitHub</a>
+    </div>
+  </div>
+
+  <div class="hero-illustration">
+    <img src="image.png" alt="AI Illustration" class="tilt" />
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>I am a passionate and curious learner pursuing my B.Tech in Computer Science. My core focus lies in Artificial Intelligence and Machine Learning, where I love solving complex problems, building intelligent systems, and exploring innovative ideas. I aim to work on impactful, real-world AI projects while continuously enhancing my technical and research skills.</p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+  <h2>Projects</h2>
+
+  <div class="grid">
+
+    <!-- PROJECT 1 -->
+    <article class="project-card tilt">
+      <img src="inventory-software-management.jpg" class="project-img" />
+      <div class="project-title">Inventory Management System</div>
+
+      <div class="overlay">
+        <p>Python GUI using Tkinter • SQLite • CRUD operations.</p>
+        <a href="https://github.com/Ritidube/Inventory-Management-System" target="_blank" class="overlay-btn magnetic">GitHub</a>
+      </div>
+    </article>
+
+    <!-- PROJECT 2 -->
+    <article class="project-card tilt">
+      <img src="SQL INJECTION.webp" class="project-img" />
+      <div class="project-title">SQL Injection Detection</div>
+
+      <div class="overlay">
+        <p>SVM • XGBoost • TF-IDF • Word2Vec • High F1-Score.</p>
+        <a href="https://github.com/Ritidube/SQL-INJECTION-DETECTION" target="_blank" class="overlay-btn magnetic">GitHub</a>
+      </div>
+    </article>
+
+    <!-- PROJECT 3 -->
+    <article class="project-card tilt">
+      <img src="DR.jpg" class="project-img" />
+      <div class="project-title">RetinaSight AI — DR Classification</div>
+
+      <div class="overlay">
+        <p>Xception • EfficientNet • Grad-CAM • Localization</p>
+        <a href="https://github.com/Ritidube/RetinaSight-AI" target="_blank" class="overlay-btn magnetic">GitHub</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- INTERNSHIP -->
+<section id="intern" class="blog">
+  <h2>Internship Experience</h2>
+  <div class="blog-grid">
+    <div class="blog-card tilt">
+      <h3>DRDO – Project Intern (June 2025 – July 2025)</h3>
+      <p>Developed “Offline Messenger” using Java, Swing, SQLite & TCP Sockets. Future Scope: AI/ML-based voice message reader for visually impaired users.</p>
+      <a href="https://github.com/anarghya-12/Desktop-application-project" target="_blank" class="overlay-btn magnetic">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills-section">
+  <h2>Technical Skills</h2>
+  <ul class="cert-list">
+    <li><strong>Programming:</strong> Python, C++, Java (basic)</li>
+    <li><strong>AI/ML:</strong> Deep Learning, CNNs, TensorFlow, Neural Networks, LLMs (learning)</li>
+    <li><strong>Databases:</strong> SQL, SQLite</li>
+    <li><strong>Tools:</strong> Jupyter Notebook, VS Code, Git</li>
+  </ul>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certs" class="certs">
+  <h2>Certifications</h2>
+  <ul class="cert-list">
+    <li>Getting Started with Accelerated Computing in Modern CUDA C++ - NVIDIA</li>
+    <li>Neural Networks and Deep Learning (DeepLearning.AI) - Coursera</li>
+    <li>Algorithmic Toolbox (UC San Diego) - Coursera</li>
+    <li>Databases and SQL for Data Science with Python (IBM) - Coursera</li>
+    <li>Project Planning: Putting It All Together (Google) - Coursera</li>
+  </ul>
+</section>
+
+<!-- CURRENTLY LEARNING -->
+<section id="learning" class="learning">
+  <h2>Currently Learning</h2>
+  <div class="skills">
+    <div class="chip">Deep Learning & Computer Vision</div>
+    <div class="chip">Generative AI</div>
+    <div class="chip">LLM Models & AI Research</div>
+    <div class="chip">Data Structures & Algorithms (DSA)</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+
+  <form action="https://formsubmit.co/ritiadubey27@gmail.com" method="POST">
+
+    <!-- Disable Captcha -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- Email Format -->
+    <input type="hidden" name="_template" value="table">
+
+    
+    <div class="form-row">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+    </div>
+
+    <textarea name="message" rows="4" placeholder="Message" required></textarea>
+
+    <div class="send-btn">
+      <button type="submit" class="magnetic">Send</button>
+    </div>
+
+  </form>
+</section>
+
+
+<!-- FOOTER -->
+<footer style="margin-top:60px;">
+  Thank You<br>
+  <a href="https://github.com/Ritidube" target="_blank">GitHub</a> • 
+  <a href="https://linkedin.com/in/ritidubey" target="_blank">LinkedIn</a>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+  // Dark Mode
+  function toggleTheme() {
+    document.body.classList.toggle("dark");
+  }
+
+  // Typing Animation
+  const roles = [
+    "Machine Learning Enthusiast",
+    "ML & DSA Learner",
+    "AI Explorer",
+    "Deep Learning Student"
+  ];
+
+  let roleIndex = 0;
+  setInterval(() => {
+    document.querySelector('.typing').textContent = roles[roleIndex];
+    roleIndex = (roleIndex + 1) % roles.length;
+  }, 2000);
+
+  // Sticky Navbar
+  window.addEventListener("scroll", () => {
+    const nav = document.getElementById("navbar");
+    if (window.scrollY > 60) nav.classList.add("sticky");
+    else nav.classList.remove("sticky");
+  });
+</script>
+
+</body>
+</html>
